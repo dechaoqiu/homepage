@@ -1,0 +1,138 @@
+html,body{
+	margin:0;
+	padding:0
+}
+
+body{
+	/*font: 76% arial,sans-serif*/
+}
+ul{
+    list-style-type:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+#container{
+	width: 900px;
+	margin: 0 auto;
+}
+
+#welcome_div{
+	text-align: center;
+	border-radius: 5px;
+	/*box-shadow: 3px 3px 4px rgba(0,0,0,0.3);*/ 
+	background-color: rgba(192, 192, 192, 0.9);
+	height: 40px;
+	line-height:40px;
+	margin: 5 auto;/*上下为0, 左右为自动*/
+}
+#promt{
+	text-align: center;
+    margin: 5 auto;/*上下为0, 左右为自动*/
+}
+
+#welcome {
+	font-family: "Lucida Grande";
+	font-size: 15px;
+}
+
+#main{
+	height: 650px;
+}
+#left_side{
+	float: left;
+	/*border: 1px solid;*/
+	width: 34%;
+	height: 99%;
+	margin: 1;
+	text-align: center;
+}
+#relative_body{
+	height: 220px;
+	/*overflow-y: scroll;*/
+}
+.MessageContent{
+	font-family: "Lucida Grande";
+	font-size: 15px;
+}
+
+#photo{
+	margin: 5px auto;
+	border: 3px solid;
+	border-color: transparent;
+}
+
+#info{
+	height: 200px;
+}
+
+#basic_info{
+	height: 180px;
+	margin: 5px;
+	padding-top: 10px;
+	/*background-color:gray;*/
+}
+
+#right_side{
+	float: right;
+	/*border: 1px solid;*/
+	width: 65%;
+	height: 99%;
+	margin: 1;
+}
+.subject_title{
+	padding-left: 5px;
+	font-family: "Lucida Grande";
+	color: olive;
+	font-weight:bold;
+	background-color: rgba(192, 192, 192, 0.9);
+	border-radius: 2px;
+}
+.subject_content{
+	margin: 5px;
+}
+.sub_container{
+	margin: 5px;
+	/*border: 1px solid;*/
+}
+
+#footer{
+	margin-bottom: 5px;
+	clear: both;
+	text-align: center;
+	height: 40px;
+	line-height:40px;
+}
+
+#appengine{
+	float: right;
+	width: 120px;
+	height: 30px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+#foot_message{
+	font-family: "Lucida Grande";
+	font-size: 10px;
+	color: #888888;
+}
